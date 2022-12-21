@@ -16,7 +16,7 @@
       <div class="card col-md-8">
         <div class="card-header text-center">
           <h3><b>Alur Pemohonan Kredit <br>
-            Kospin Jasa Cabang Bendungan Hilir</b></h3>
+            Kospin Jasa Cabang Cileduk</b></h3>
         </div>
 
         <div class="card-body">

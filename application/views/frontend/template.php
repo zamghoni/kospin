@@ -62,14 +62,14 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:puskesmascilincing@gmail.com">kospinjasabenhil@gmail.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>(021) 5732550-5724889</span></i>
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:kospinjasacileduk@gmail.com">kospinjasacileduk@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>02173454859</span></i>
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
-        <a href="https://puskesmascilincing.jakarta.go.id/contact_us#" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="https://puskesmascilincing.jakarta.go.id/contact_us#" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://puskesmascilincing.jakarta.go.id/contact_us#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://puskesmascilincing.jakarta.go.id/contact_us#" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
+        <a href="http://www.kospinjasa.com/" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="http://www.kospinjasa.com/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="http://www.kospinjasa.com/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="http://www.kospinjasa.com/" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
       </div>
     </div>
   </section>
@@ -149,23 +149,22 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Hubungi kami</h4>
             <p>
-              Jl.Penjernihan II No.10B,RT.11/RW.6,Bend.Hilir,
-              Kec. Tanah Abang<br>
-              Kota Jakarta Pusat, Indonesia <br><br>
-              <strong>No HP:</strong> 021 2148 4019<br>
-              <strong>Email:</strong> puskesmascilincing@gmail.com<br>
+              <p>Jl. HOS Cokroaminoto No.45, RT.003/RW.001, Sudimara Barat, <br />
+              Kec. Ciledug, Kota Tangerang, Banten 15151<br><br>
+              <strong>No HP:</strong> 02173454859<br>
+              <strong>Email:</strong> kospinjasacileduk@gmail.com<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Tentang Website Permohonan Kredit Kospin Jasa Cabang Benhil</h3>
+            <h3>Tentang Website Permohonan Kredit Kospin Jasa Cabang Cileduk</h3>
             <p>Kospin (Koperasi Simpan Pinjam) "JASA" merupakan koperasi yang dimiliki anggota,yang mana dibentuk oleh sekelompok pengusaha kecil dan menengah pada tahun 1970an.Tujuannya adalah menyediakan solusi dalam mengatasi kesulitan penguasaha kecil dan menengah dalam mendapatkan pinjaman sebagai modal usaha.Bergabunglah bersama kami dan temukan manfaat keanggotaan di Kospin JASA !</p>
             <div class="social-links mt-3">
-              <a href="https://www.instagram.com/kospinjasa.benhil/" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.instagram.com/kospinjasa.benhil/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/kospinjasa.benhil/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.instagram.com/kospinjasa.benhil/" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
+              <a href="https://www.instagram.com/kospinjasa.cileduk/" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.instagram.com/kospinjasa.cileduk/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/kospinjasa.cileduk/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.instagram.com/kospinjasa.cileduk/" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
             </div>
           </div>
 

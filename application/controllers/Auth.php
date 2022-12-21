@@ -32,7 +32,7 @@ class Auth extends CI_Controller{
     } else {
       $data = array(
         'page' => 'Login',
-        'subpage' => 'Puskesmas Penjaringan',
+        'subpage' => 'Kospin Jasa Cabang Cileduk',
       );
       delete_cookie('id');
       delete_cookie('key');

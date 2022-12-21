@@ -18,10 +18,10 @@
         <div class="col-lg-6">
           <div class="info-box mb-4 rounded">
             <i class="bx bx-map text-success"></i>
+
             <h3>Alamat Kami</h3>
-            <p>Jl.Penjernihan II No.10B,RT.11/RW.6,Bend.Hilir,
-            Kec. Tanah Abang<br>
-            Kota Jakarta Pusat, Indonesia <br></p>
+            <p>Jl. HOS Cokroaminoto No.45, RT.003/RW.001, Sudimara Barat, <br />
+            Kec. Ciledug, Kota Tangerang, Banten 15151</p>
           </div>
         </div>
 
@@ -29,7 +29,7 @@
           <div class="info-box  mb-4 rounded">
             <i class="bx bx-envelope text-success"></i>
             <h3>Email Kami</h3>
-            <p>kospinjasabenhil@gmail.com</p>
+            <p>kospinjasacileduk@gmail.com</p>
           </div>
         </div>
 
@@ -37,14 +37,14 @@
           <div class="info-box  mb-4 rounded">
             <i class="bx bx-phone-call text-success"></i>
             <h3>Hubungi Kami</h3>
-            <p>(021) 5732550-5724889</p>
+            <p>02173454859</p>
           </div>
         </div>
 
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <iframe class="mb-4 mb-lg-0 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.441710157494!2d106.80970599999999!3d-6.205318999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6a5ae6aaaaf%3A0xdeeffa9eef62c657!2sKospin%20Jasa%20Benhil!5e0!3m2!1sid!2sid!4v1671384073851!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          <iframe class="mb-4 mb-lg-0 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.175305279841!2d106.69722854178146!3d-6.224935200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fa1c92e68bed%3A0x609f98d20868821c!2sKospin%20Jasa%20Ciledug!5e0!3m2!1sid!2sid!4v1671634654289!5m2!1sid!2sidd" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
         </div>
 
         <div class="col-lg-6">

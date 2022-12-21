@@ -11,7 +11,7 @@
         <div class="carousel-item active" style="background-image: url(<?=base_url()?>assets/frontend/img/slide/slide-1.jpg)">
           <div class="carousel-container">
             <div class="carousel-content">
-              <h2 class="animate__animated animate__fadeInDown">Welcome to <span class="text-success">Kospin Jasa Cabang Bendungan Hilir</span></h2>
+              <h2 class="animate__animated animate__fadeInDown">Welcome to <span class="text-success">Kospin Jasa Cabang Cileduk</span></h2>
               <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
               <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
             </div>
@@ -96,7 +96,7 @@
           <img src="<?=base_url()?>assets/frontend/img/about.jpg" class="img-fluid rounded shadow" alt="">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 content">
-          <h3>Selamat Datang Pada Website Permohonan Kredit Kospin JASA Cabang Bendungan Hilir</h3>
+          <h3>Selamat Datang Pada Website Permohonan Kredit Kospin Jasa Cabang Cileduk</h3>
           <p class="fst-italic">
             Kospin (Koperasi Simpan Pinjam) "JASA" merupakan koperasi yang dimiliki anggota,yang mana dibentuk oleh sekelompok pengusaha kecil dan menengah pada tahun 1970an.
           </p>

@@ -21,7 +21,7 @@ class Home extends CI_Controller{
   function index()
   {
     $data = array(
-			'subpage' => 'Kosnpin Jasa Cabang Benhil',
+			'subpage' => 'Kosnpin Jasa Cabang Cileduk',
 			'page' => 'Home',
 		);
 		$this->template->load($this->foldertemplate.'template',$this->folder.'data',$data);
@@ -30,7 +30,7 @@ class Home extends CI_Controller{
   function alur_permohonan()
   {
     $data = array(
-			'subpage' => 'Kosnpin Jasa Cabang Benhil',
+			'subpage' => 'Kosnpin Jasa Cabang Cileduk',
 			'page' => 'Alur Permohonan Kredit',
 		);
 		$this->template->load($this->foldertemplate.'template',$this->folder.'alur_permohonan',$data);
@@ -71,7 +71,7 @@ class Home extends CI_Controller{
 
     //panggil function get_album_list yang ada pada mmodel mahasiswa_model.
     $data = array(
-      'subpage' => 'Kosnpin Jasa Cabang Benhil',
+      'subpage' => 'Kosnpin Jasa Cabang Cileduk',
       'page' => 'Foto',
       'row' => $this->M_album->get_album_list($config["per_page"], $data['page']),
     );
@@ -118,7 +118,7 @@ class Home extends CI_Controller{
 
     //panggil function get_acara_list yang ada pada mmodel mahasiswa_model.
     $data = array(
-      'subpage' => 'Kosnpin Jasa Cabang Benhil',
+      'subpage' => 'Kosnpin Jasa Cabang Cileduk',
       'page' => 'Agenda',
       'row' => $this->M_acara->get_acara_list($config["per_page"], $data['page']),
     );
@@ -133,7 +133,7 @@ class Home extends CI_Controller{
   function statistik()
   {
     $data = array(
-			'subpage' => 'Kosnpin Jasa Cabang Benhil',
+			'subpage' => 'Kosnpin Jasa Cabang Cileduk',
 			'page' => 'Statistik',
 		);
 		$this->template->load($this->foldertemplate.'template',$this->folder.'statistik',$data);
@@ -142,7 +142,7 @@ class Home extends CI_Controller{
   function peminjaman()
   {
     $data = array(
-			'subpage' => 'Kosnpin Jasa Cabang Benhil',
+			'subpage' => 'Kosnpin Jasa Cabang Cileduk',
 			'page' => 'Ajukan Kredit',
 		);
 		$this->template->load($this->foldertemplate.'template',$this->folder.'peminjaman',$data);
@@ -173,7 +173,7 @@ class Home extends CI_Controller{
     $post = $this->input->post(null, TRUE);
     if (isset($_POST['Filter'])) {
 			$data = array(
-        'subpage' => 'Kosnpin Jasa Cabang Benhil',
+        'subpage' => 'Kosnpin Jasa Cabang Cileduk',
   			'page' => 'Data Bencana',
 				'row' => $this->M_bencana->get(),
 				'jenis' => $this->M_bencana->getjenis(),
@@ -183,7 +183,7 @@ class Home extends CI_Controller{
     } else if (isset($_POST['Cetak'])) {
       $this->load->library('pdf');
 			$data = array(
-        'subpage' => 'Kosnpin Jasa Cabang Benhil',
+        'subpage' => 'Kosnpin Jasa Cabang Cileduk',
   			'page' => 'Data Bencana',
 				'row' => $this->M_bencana->get(),
 				'jenis' => $this->M_bencana->getjenis()->result(),
@@ -204,7 +204,7 @@ class Home extends CI_Controller{
   function kontak()
   {
     $data = array(
-			'subpage' => 'Kosnpin Jasa Cabang Benhil',
+			'subpage' => 'Kosnpin Jasa Cabang Cileduk',
 			'page' => 'Kontak',
 		);
 		$this->template->load($this->foldertemplate.'template',$this->folder.'kontak',$data);

@@ -19,7 +19,7 @@ class Dashboard extends CI_Controller{
     $id = $this->fungsi->user_login()->id;
     $data = array(
       'page' => 'Dashboard',
-      'subpage' => 'Kospin Jasa Cab. Benhil',
+      'subpage' => 'Kospin Jasa Cab. Cileduk',
       'user' => $this->M_user->getnasabah(),
       'pinjaman' => $this->M_pinjaman->get(),
       'liststatus' => $this->M_pinjaman->liststatus(),
