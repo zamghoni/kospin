@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 21, 2022 at 03:29 PM
+-- Generation Time: Jan 29, 2023 at 01:01 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -41,7 +41,9 @@ CREATE TABLE `jaminan` (
 
 INSERT INTO `jaminan` (`id_jaminan`, `user_id`, `nama_jaminan`, `taksiran`, `foto_jaminan`) VALUES
 (1, 18, 'BPKB Motor', 5000000, 'Foto_Jaminan221220-aefc45e3bc.png'),
-(2, 18, 'BPKB Mobil', 15000000, 'Foto_Jaminan221220-990aea30ee.jpeg');
+(2, 18, 'BPKB Mobil', 15000000, 'Foto_Jaminan221220-990aea30ee.jpeg'),
+(5, 21, 'BPKB Motor', 10000000, 'Foto_Jaminan221221-621ccad104.jpeg'),
+(6, 21, 'BPKB Mobil', 25000000, 'Foto_Jaminan221221-d3a0066d6b.jpeg');
 
 -- --------------------------------------------------------
 
@@ -74,7 +76,8 @@ CREATE TABLE `nasabah` (
 
 INSERT INTO `nasabah` (`id_nasabah`, `user_id`, `jk`, `no_ktp`, `tmpt_lahir`, `tgl_lhr`, `alamat`, `pend_terakhir`, `ibu_kandung`, `status_perkawinan`, `jml_tanggungan`, `istri_suami`, `pekerjaan_istri_suami`, `foto_kk`, `foto_ktp`, `akta_nikah`) VALUES
 (1, 18, 'Laki-laki', '3322112123123123', 'Tegal', '2022-12-19', 'Jalan kosakosk ', 'SMP', 'DALBANTI', 'Menikah', 3, 'Bagus riokardo', 'Buruh', 'Foto_KK221219-1fda850fb9.png', 'Foto_KTP221221-eea3c608ea.jpg', 'Foto_Akta_Nikah221221-c4b0b91661.jpeg'),
-(5, 20, 'Laki-laki', '12121', 'Tegal ', '2022-12-12', 'Saasas', 'D3', 'ASAS', 'Menikah', 2, 'Sasa', 'Asa', '', '', NULL);
+(5, 20, 'Laki-laki', '12121', 'Tegal ', '2022-12-12', 'Saasas', 'D3', 'ASAS', 'Menikah', 2, 'Sasa', 'Asa', '', '', NULL),
+(6, 21, 'Laki-laki', '1212', 'Medan', '1222-12-12', 'Asas', 'D3', 'ASAS', 'Menikah', 3, 'Asasa', 'Sasas', 'Foto_KK221221-d2e14637a3.jpeg', 'Foto_KTP221221-db1a7bac62.jpeg', 'Foto_Akta_Nikah221221-e12aa847b6.jpeg');
 
 -- --------------------------------------------------------
 
@@ -98,7 +101,8 @@ CREATE TABLE `pekerjaan` (
 
 INSERT INTO `pekerjaan` (`id_pekerjaan`, `user_id`, `pekerjaan`, `nama_perush`, `alamat_perush`, `jabatan`, `jml_penghasilan`) VALUES
 (1, 18, 'Pegawai Swasta', 'PT antam', 'ning antam lah bos', 'Staff', 5000000),
-(2, 20, 'Pegawai Swasta', 'Asas', 'asas', 'BAAK', 1212);
+(2, 20, 'Pegawai Swasta', 'Asas', 'asas', 'BAAK', 1212),
+(3, 21, 'Pegawai Swasta', 'Asas', 'asas', 'Asas', 3343434);
 
 -- --------------------------------------------------------
 
@@ -123,8 +127,9 @@ CREATE TABLE `pinjaman` (
 --
 
 INSERT INTO `pinjaman` (`id_pinjaman`, `user_id`, `jenis_pinjaman`, `jangka_waktu`, `jml_permohonan`, `tujuan_penggunaan`, `status`, `user_approved`, `tgl_pinjaman`) VALUES
-(2, 18, 'Bulanan', '12', 15000000, 'negskaok ', 0, 19, '2022-12-20'),
-(3, 20, 'Bulanan', '9', 5000000, 'sekolah\r\n', 0, 19, '2022-12-21');
+(2, 18, 'Bulanan', '12', 15000000, 'negskaok ', 5, 19, '2022-12-20'),
+(3, 20, 'Bulanan', '9', 5000000, 'sekolah\r\n', 1, 19, '2022-12-21'),
+(4, 21, 'Mingguan', '16', 25000000, 'sekolah', 5, 19, '2022-12-21');
 
 -- --------------------------------------------------------
 
@@ -152,7 +157,8 @@ INSERT INTO `user` (`id`, `nama_lengkap`, `email`, `no_hp`, `password`, `role`, 
 (8, 'Admin', 'admin@gmail.com', '081563916752', '$2y$10$ke0.y4qcjGJ5WEa.vxxFdOr7XZUO41TwMhjTjnsQaLGK4aJr3BvEe', 0, 'Foto_User221219-22c4532ee3.png', '2022-10-15 05:24:55', '2022-12-19 04:55:02'),
 (18, 'Nasabah', 'nasabah@gmail.com', '0812345678', '$2y$10$b2F6wlGDzt2V/75AtrWQ..GbGRVJ2gNeMTGHGt4oYyf7e7WTU/8l6', 2, 'Foto_User221219-0c3706e283.png', '2022-12-19 04:59:00', '2022-12-19 05:00:18'),
 (19, 'Pimpinan', 'pimpinan@gmail.com', '0891212121', '$2y$10$c.GFspnqiTVnqj12/.9Hb.T3rZ6LEVqTHApn5THT.vYPySKBIatn2', 1, 'Foto_User221219-0aafb1c5e4.png', '2022-12-19 05:00:02', '2022-12-19 05:00:11'),
-(20, 'Agung Herkules', 'agung@gmail.com', '877123123123', '$2y$10$CE/f4karK/mUfJ4Pq.AR/OPmiwBTKiFy/R8CHXCO0uuUCFn.ruPv6', 2, NULL, '2022-12-20 08:03:55', NULL);
+(20, 'Agung Herkules', 'agung@gmail.com', '877123123123', '$2y$10$CE/f4karK/mUfJ4Pq.AR/OPmiwBTKiFy/R8CHXCO0uuUCFn.ruPv6', 2, NULL, '2022-12-20 08:03:55', NULL),
+(21, 'Bagus', 'bagus@gmail.com', '1234', '$2y$10$1x1Yti0ecLg8ueJqkRoVkOJ6GXMIc3jbn6PhLbI0DvVSjGRPVd36m', 2, NULL, '2022-12-21 15:07:45', NULL);
 
 --
 -- Indexes for dumped tables
@@ -196,31 +202,31 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `jaminan`
 --
 ALTER TABLE `jaminan`
-  MODIFY `id_jaminan` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_jaminan` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `nasabah`
 --
 ALTER TABLE `nasabah`
-  MODIFY `id_nasabah` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_nasabah` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `pekerjaan`
 --
 ALTER TABLE `pekerjaan`
-  MODIFY `id_pekerjaan` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_pekerjaan` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `pinjaman`
 --
 ALTER TABLE `pinjaman`
-  MODIFY `id_pinjaman` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_pinjaman` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
